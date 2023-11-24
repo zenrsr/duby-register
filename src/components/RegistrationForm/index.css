@@ -1,0 +1,81 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  min-width: 500px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  border: 1px solid #cbd2d9;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px 1px #cbd2d9;
+  padding: 2%;
+  flex-wrap: wrap;
+  min-height: 300px;
+}
+
+.heading {
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: #ea580c;
+}
+
+.first-label {
+  color: #475569;
+  margin: 2%;
+}
+
+.error-msg {
+  color: red;
+  font-size: 14px;
+  margin: 2%;
+}
+.name-input {
+  width: 420px;
+  margin: 2%;
+  outline: none;
+  height: 35px;
+  padding: 0.5%;
+  padding-left: 5px;
+}
+.submit-button {
+  margin-top: 10px;
+  min-width: 80px;
+  height: 35px;
+  align-self: center;
+  background-color: #ea580c;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 7px;
+  padding: 7px;
+}
+.error {
+  background-color: #fef2f4;
+  border: 1px solid #ea580c;
+  border-radius: 8px;
+}
+.info {
+  text-align: center;
+}
+.tick {
+  width: 80px;
+  height: auto;
+  align-self: center;
+}
